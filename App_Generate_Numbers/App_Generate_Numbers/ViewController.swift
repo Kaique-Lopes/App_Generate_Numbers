@@ -18,7 +18,5 @@ class ViewController: UIViewController {
         let numberRandom = arc4random_uniform(1001)
         lbResult.text = String(numberRandom)
     }
-    
-
 }
 
